@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <div class="stats">
+            <div class="resource">
+                <h2>⚡ Энергия: <span id="energy">0</span></h2>
+            </div>
+            <div class="level">
+                <h2>🚀 Уровень: <span id="level">1</span></h2>
+            </div>
+        </div>
+
+        <div class="click-area" id="click-area">
+            <div class="enemy" id="enemy">
+                <img src="https://i.imgur.com/JqYeYnW.png" id="enemy-img">
+                <div class="health-bar">
+                    <div class="health" id="health"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="upgrades">
+            <h2>🛠️ Арсенал</h2>
+            <div class="weapons" id="weapons"></div>
+        </div>
+
+        <div class="skills">
+            <h2>🌌 Дерево развития</h2>
+            <div class="skill-tree" id="skill-tree"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
